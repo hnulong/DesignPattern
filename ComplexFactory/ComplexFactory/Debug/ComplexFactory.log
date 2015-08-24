@@ -1,0 +1,31 @@
+﻿生成启动时间为 2015/8/24 14:21:30。
+     1>项目“F:\Git\repository\designpattern\ComplexFactory\ComplexFactory\ComplexFactory.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ComplexFactory.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FactoryAdd.cpp FactoryMinus.cpp OperationAdd.cpp OperationMinus.cpp test.cpp
+         FactoryAdd.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         test.cpp
+         OperationMinus.cpp
+         OperationAdd.cpp
+         FactoryMinus.cpp
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Git\repository\designpattern\ComplexFactory\Debug\ComplexFactory.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ComplexFactory.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Git\repository\designpattern\ComplexFactory\Debug\ComplexFactory.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Git\repository\designpattern\ComplexFactory\Debug\ComplexFactory.lib" /MACHINE:X86 Debug\FactoryAdd.obj
+         Debug\FactoryMinus.obj
+         Debug\OperationAdd.obj
+         Debug\OperationMinus.obj
+         Debug\test.obj
+         LINK : 没有找到 F:\Git\repository\designpattern\ComplexFactory\Debug\ComplexFactory.exe 或上一个增量链接没有生成它；正在执行完全链接
+         ComplexFactory.vcxproj -> F:\Git\repository\designpattern\ComplexFactory\Debug\ComplexFactory.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Git\repository\designpattern\ComplexFactory\Debug\ComplexFactory.exe;#1" /manifest Debug\ComplexFactory.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ComplexFactory.unsuccessfulbuild”。
+         正在对“Debug\ComplexFactory.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Git\repository\designpattern\ComplexFactory\ComplexFactory\ComplexFactory.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.85
