@@ -1,0 +1,29 @@
+﻿生成启动时间为 2015/8/23 20:44:06。
+     1>项目“F:\Git\repository\designpattern\Strategy\Strategy\Strategy.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“F:\Git\repository\designpattern\Strategy\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\Strategy.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Operation.cpp OperationAdd.cpp OperationMinus.cpp test.cpp
+         test.cpp
+         OperationMinus.cpp
+         OperationAdd.cpp
+         Operation.cpp
+         正在生成代码...
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Git\repository\designpattern\Strategy\Debug\Strategy.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Strategy.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Git\repository\designpattern\Strategy\Debug\Strategy.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Git\repository\designpattern\Strategy\Debug\Strategy.lib" /MACHINE:X86 Debug\Operation.obj
+         Debug\OperationAdd.obj
+         Debug\OperationMinus.obj
+         Debug\test.obj
+         Strategy.vcxproj -> F:\Git\repository\designpattern\Strategy\Debug\Strategy.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Git\repository\designpattern\Strategy\Debug\Strategy.exe;#1" /manifest Debug\Strategy.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Strategy.unsuccessfulbuild”。
+         正在对“Debug\Strategy.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Git\repository\designpattern\Strategy\Strategy\Strategy.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.69
